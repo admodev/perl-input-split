@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+print "Hello, World!\n";
+
+$line = 1;
+
+while (<>) {
+  split;
+  print $line++, " ", $_;
+}
+
